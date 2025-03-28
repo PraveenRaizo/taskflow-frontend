@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 7, "column": 0}, "map": {"version":3,"sources":["file:///home/praveen-raizo/Personal%20Projects/taskflow/taskflow-frontend/src/app/page.tsx"],"sourcesContent":["'use client'\n\nimport { Container } from '@mui/material';\nimport React from 'react';\n\nconst BasicLayoutPage=()=>{\n  return (\n    <Container maxWidth={false} style={{ backgroundColor: 'red', height: '100%', width: '100%' }}>\n      {/* <h1>Hollo world</h1> */}\n    </Container>\n  );\n}\n\nexport default BasicLayoutPage;"],"names":[],"mappings":";;;;AAEA;AAFA;;;AAKA,MAAM,kBAAgB;IACpB,qBACE,8OAAC,0MAAA,CAAA,YAAS;QAAC,UAAU;QAAO,OAAO;YAAE,iBAAiB;YAAO,QAAQ;YAAQ,OAAO;QAAO;;;;;;AAI/F;uCAEe","debugId":null}}]
+}
