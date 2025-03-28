@@ -1,7 +1,0 @@
-{
-  "version": 3,
-  "sources": [],
-  "sections": [
-    {"offset": {"line": 7, "column": 0}, "map": {"version":3,"sources":["file:///home/praveen-raizo/Personal%20Projects/taskflow/taskflow-frontend/src/app/layout.tsx"],"sourcesContent":["import { Metadata } from 'next';\nimport './globals.css';\n\ninterface RootLayoutInterface {\n  children: React.ReactNode\n}\n\nexport const metadata: Metadata = {\n  title: 'TaskFlow - A Team Collaboration Tool',\n  description: 'A team collaboration tool manage team and tasks',\n  icons: {\n    icon: '/task_logo.png'\n  }\n}\n\nconst RootLayout: React.FC<RootLayoutInterface> =({children})=>{\n  return (\n    <html lang='en'>\n      <body>{children}</body>\n    </html>\n  );\n}\n\nexport default RootLayout;"],"names":[],"mappings":";;;;;;;AAOO,MAAM,WAAqB;IAChC,OAAO;IACP,aAAa;IACb,OAAO;QACL,MAAM;IACR;AACF;AAEA,MAAM,aAA2C,CAAC,EAAC,QAAQ,EAAC;IAC1D,qBACE,8OAAC;QAAK,MAAK;kBACT,cAAA,8OAAC;sBAAM;;;;;;;;;;;AAGb;uCAEe","debugId":null}},
-    {"offset": {"line": 43, "column": 0}, "map": {"version":3,"sources":["file:///home/praveen-raizo/Personal%20Projects/taskflow/taskflow-frontend/node_modules/next/src/server/route-modules/app-page/vendored/rsc/react-jsx-dev-runtime.ts"],"sourcesContent":["module.exports = require('../../module.compiled').vendored[\n  'react-rsc'\n].ReactJsxDevRuntime\n"],"names":["module","exports","require","vendored","ReactJsxDevRuntime"],"mappings":";AAAAA,OAAOC,OAAO,GAAGC,QAAQ,4HAAyBC,QAAQ,CACxD,YACD,CAACC,kBAAkB","ignoreList":[0],"debugId":null}}]
-}

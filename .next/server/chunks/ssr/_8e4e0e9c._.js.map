@@ -1,7 +1,0 @@
-{
-  "version": 3,
-  "sources": [],
-  "sections": [
-    {"offset": {"line": 7, "column": 0}, "map": {"version":3,"sources":["file:///home/praveen-raizo/Personal%20Projects/taskflow/taskflow-frontend/src/app/page.tsx"],"sourcesContent":["'use client'\n\nimport React from 'react';\n\nconst drawerWidth = 240;\n\nconst BasicLayoutPage=()=>{\n  return (\n    <div className='flex h-screen'>\n      {/* Sidebar */}\n    </div>\n  );\n}\n\nexport default BasicLayoutPage;"],"names":[],"mappings":";;;;AAAA;;AAIA,MAAM,cAAc;AAEpB,MAAM,kBAAgB;IACpB,qBACE,8OAAC;QAAI,WAAU;;;;;;AAInB;uCAEe","debugId":null}},
-    {"offset": {"line": 29, "column": 0}, "map": {"version":3,"sources":["file:///home/praveen-raizo/Personal%20Projects/taskflow/taskflow-frontend/node_modules/next/src/server/route-modules/app-page/vendored/ssr/react-jsx-dev-runtime.ts"],"sourcesContent":["module.exports = require('../../module.compiled').vendored[\n  'react-ssr'\n].ReactJsxDevRuntime\n"],"names":["module","exports","require","vendored","ReactJsxDevRuntime"],"mappings":";AAAAA,OAAOC,OAAO,GAAGC,QAAQ,4HAAyBC,QAAQ,CACxD,YACD,CAACC,kBAAkB","ignoreList":[0],"debugId":null}}]
-}
