@@ -2,3 +2,4 @@
 .env
 .gitignore
 next-env.d.ts
+.next
