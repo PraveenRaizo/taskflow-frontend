@@ -1,5 +1,6 @@
 import { Metadata } from 'next';
 import './globals.css';
+import RootContainer from './root-container';
 
 interface RootLayoutInterface {
   children: React.ReactNode
@@ -16,7 +17,11 @@ export const metadata: Metadata = {
 const RootLayout: React.FC<RootLayoutInterface> =({children})=>{
   return (
     <html lang='en'>
-      <body>{children}</body>
+      <body>
+        <RootContainer>
+          {children}
+        </RootContainer> 
+      </body>
     </html>
   );
 }
