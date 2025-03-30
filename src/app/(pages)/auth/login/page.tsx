@@ -1,6 +1,6 @@
 'use client';
 
-import { Card, Grid, IconButton, Typography, useTheme } from '@mui/material';
+import { Button, Card, Grid, IconButton, TextField, Typography, useTheme } from '@mui/material';
 import { loadFull } from 'tsparticles';
 import React, { useCallback, useContext, useEffect, useState } from 'react';
 import Particles, { initParticlesEngine } from '@tsparticles/react';
@@ -8,6 +8,8 @@ import { Container, Engine } from '@tsparticles/engine';
 import { loadSlim } from '@tsparticles/slim';
 import { ThemeContext } from '@/context/ThemeProvider';
 import { Brightness4, Brightness7, Height } from '@mui/icons-material';
+import TaskFlowLogo from '../../../../../public/task_flow_bg_removed.png';
+import Image from 'next/image';
 
 const LoginPage = () => {
 
@@ -92,9 +94,45 @@ const LoginPage = () => {
       sx={{ backgroundColor: 'transparent' }}
     >
       <Card sx={{ padding: 4, textAlign: 'center', backgroundColor: muiTheme.palette.background.paper }}>
-        <Typography variant="h5" sx={{ color: muiTheme.palette.text.primary }}>
-          Login Form Goes Here
-        </Typography>
+        {/* <Typography variant="h5" sx={{ color: muiTheme.palette.text.primary, fontWeight:'bold', marginBottom:'1rem' }}>
+          TaskFlow
+        </Typography> */}
+        <Grid container justifyContent="center">
+            <Image src={TaskFlowLogo} alt="TaskFlow Logo" width={150} height={150} />
+        </Grid>
+        
+        <Grid container spacing={2} direction={'column'}>
+          <Grid size={12}>
+            <TextField
+              fullWidth
+              label="Email"
+              variant="outlined"
+              type="email"
+              sx={{ backgroundColor: muiTheme.palette.background.default }}
+            />
+          </Grid>
+
+          <Grid size={12}>
+            <TextField
+              fullWidth
+              label="Password"
+              variant="outlined"
+              type="password"
+              sx={{ backgroundColor: muiTheme.palette.background.default }}
+            />
+          </Grid>
+
+          <Grid size={12}>
+            <Button 
+            variant="contained" 
+            color="primary" 
+            fullWidth
+            sx={{ textTransform: 'none', fontWeight: 'bold' }}
+            >
+              Login
+            </Button>
+          </Grid>
+        </Grid>
       </Card>  
     </Grid>
 
